@@ -8,7 +8,7 @@ CURRENT_DIR = $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 
 DIR = .
 FILE = Dockerfile
-IMAGE = cytopia/aws-ec2-sg-exporter
+IMAGE = flaconi/aws-ec2-sg-exporter
 TAG = latest
 
 build:
